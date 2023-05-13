@@ -1,5 +1,5 @@
 # terraform-aws-deployment.
--------------------------------------Serverless Baseline AWS Infrastructure with Terraform and GitHub Actions-----------------------------------------------------
+-------------------Serverless Baseline AWS Infrastructure with Terraform and GitHub Actions--------------------
 
 This repository contains the code for deploying a baseline AWS infrastructure using Terraform and GitHub Actions. The infrastructure consists of two EC2 instances in separate availability zones, and a VPC with two subnets and a security group. The deployment is done using Terraform, and the GitHub Actions workflow is used to automate the deployment process.
 
@@ -7,14 +7,14 @@ This repository contains the code for deploying a baseline AWS infrastructure us
 *Getting Started*
 
 
---------------------------------------------------------------------Prerequisites---------------------------------------------------------------------------------
+--------------------------------------------Prerequisites--------------------------------------------------------
 
 
 - AWS account with appropriate credentials and permissions.
 - GitHub account for using GitHub Actions.
 
 
---------------------------------------------------------------------Setting Up------------------------------------------------------------------------------------
+-----------------------------------------------Setting Up--------------------------------------------------------
 
 
 
@@ -24,7 +24,7 @@ Set up the AWS credentials using settings and add the AWS_ACCESS_KEY_ID and AWS_
 
 
 
--------------------------------------------------------------------Deployment-------------------------------------------------------------------------------------
+---------------------------------------------Deployment-----------------------------------------------------------
 
 
 
@@ -46,13 +46,12 @@ Follow these steps to deploy the baseline AWS infrastructure:
 
 
 
------------------------------------------------------------------Customization------------------------------------------------------------------------------------
-
+--------------------------------------------Customization-------------------------------------------------    
 
 Feel free to customize the deployment according to your specific requirements. You can modify the Terraform configuration files (`main.tf` and `variables.tf`) to add or remove resources, adjust networking settings, security group rules, etc.
 
 
-------------------------------------------------------------------Repository Structure----------------------------------------------------------------------------
+-------------------------------------------Repository Structure---------------------------------------------
 
 
 The repository contains the following files:
@@ -62,16 +61,16 @@ variables.tf: Input variables for the Terraform code.
 .github/workflows/deploy.yml: GitHub Actions workflow file for deploying the infrastructure.
 
 
----------------------------------------------------------------------Contributing---------------------------------------------------------------------------------
+----------------------------------------Contributing-----------------------------------------------------------
 
 
 Contributions to this repository are always welcome! If you have any suggestions or improvements, feel free to create an issue or a pull request.
 
 
----------------------------------------------------------------------License--------------------------------------------------------------------------------------
+-----------------------------------------------License---------------------------------------------------------
 
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
